@@ -1,0 +1,17 @@
+{
+  "name": "deploy-tool",
+  "version": "1.0.0",
+  "description": "auto  deploy tool",
+  "main": "worker.js",
+  "scripts": {
+    "start": "DEBUG=deploy-tool* node worker"
+  },
+  "author": "wmtcore",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.5.1",
+    "koa": "^1.2.4",
+    "koa-bodyparser": "^2.3.0",
+    "koa-router": "^5.4.0"
+  }
+}
